@@ -7,4 +7,10 @@ Após análise da classe Parrot, observamos a existências de dois principais m�
 
 Os métodos getSpeed() e getCry() sofrem variações de acordo com algumas condições e valores de variáveis, todas executadas nos próprios métodos, sem a utilização de nenhum método auxiliar externo. Quanto aos testes, parecem ser suficientes para validar todos os casos possíveis iniciais, com taxa de cobertura de código de 100%.
 
+### 2 - Reestruturando Métodos Complexos & 3 - Expressividade e Clareza com Variáveis
+
+Como foi constatada a presença de dois métodos principais, decidi abordá-los diretamente. Como eles variavam de acordo com a espécie do papagaio, decidi reestruturar a classe de modo a permitir que cada classe fique responsável por seu próprio método, acabando com o compartilhamento de responsabilidades.
+
+Para isso, criei uma interface de nome Parrot e com aquelas propriedades e métodos que eram presentes em todos os tipos de papagaios: getSpeed(), getCry() e baseSpeed. Então, criei classes específicas para cada espécie de papagaio, separando as responsabilidades.
+
 
