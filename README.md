@@ -13,4 +13,5 @@ Como foi constatada a presença de dois métodos principais, decidi abordá-los 
 
 Para isso, criei uma interface de nome Parrot e com aquelas propriedades e métodos que eram presentes em todos os tipos de papagaios: getSpeed(), getCry() e baseSpeed. Então, criei classes específicas para cada espécie de papagaio, separando as responsabilidades.
 
-
+### 3 - Expressividade e Clareza com Variáveis
+Como muitas mudanças nesse sentido foram feitas nas etapas anteriores, aqui apenas tornei as variáveis com valores constantes estáticas e no formato UPPER_SNAKE_CASE, além de remover os magic numbers que estavam no código.

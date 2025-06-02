@@ -3,6 +3,6 @@ package parrot;
 public interface Parrot {
     double getSpeed();
     String getCry();
-    double baseSpeed = 12;
+    static double BASE_SPEED = 12;
 }
 

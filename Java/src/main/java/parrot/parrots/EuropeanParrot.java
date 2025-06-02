@@ -5,7 +5,7 @@ import parrot.Parrot;
 public class EuropeanParrot implements Parrot {
     @Override
     public double getSpeed() {
-        return baseSpeed;
+        return BASE_SPEED;
     }
 
     @Override
