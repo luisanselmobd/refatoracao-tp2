@@ -4,7 +4,7 @@ import parrot.Parrot;
 
 public class AfricanParrot implements Parrot {
     private final int numberOfCoconuts;
-    private static double LOAD_FACTOR = 9.0;
+    private static final double LOAD_FACTOR = 9.0;
     private static final double MIN_SPEED = 0.0;
 
 
