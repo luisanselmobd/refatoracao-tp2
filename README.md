@@ -15,3 +15,9 @@ Para isso, criei uma interface de nome Parrot e com aquelas propriedades e méto
 
 ### 3 - Expressividade e Clareza com Variáveis
 Como muitas mudanças nesse sentido foram feitas nas etapas anteriores, aqui apenas tornei as variáveis com valores constantes estáticas e no formato UPPER_SNAKE_CASE, além de remover os magic numbers que estavam no código.
+
+### 4 - Melhorando Assinaturas e Encapsulamento
+Acredito que as mudanças necessárias foram feitas nas outras etapas, especialemtne a etapa 2.
+
+### 5 - Reorganizando Classes e Processos
+Criação da classe ParrotFactory e a implementação desse método para centralizar e organizar a criação de cada tipo de papagaio. 
